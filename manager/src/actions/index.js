@@ -5,3 +5,9 @@ export const emailChanged = (text) => {
         payload: text
     };
 };
+export const passwordChanged = (password) => {
+    return {
+        type: PASSWORD_CHANGE,
+        payload: password
+    }
+}
